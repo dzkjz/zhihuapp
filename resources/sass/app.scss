@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Select2
+@import 'vendor/select2/select2/src/scss/core.scss';
+
+.card-body img {
+    width: 100%;
+}
+
+.card-body .unread {
+    background-color: red;
+    font-size: 24px;
+}
+
+.card-body .read {
+    background-color: gainsboro;
+}
